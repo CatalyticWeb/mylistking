@@ -13,7 +13,12 @@ that my page background color wasn't right.
 What up with this you think? BC
 #################################################*/
 
-.page {
+/*#################################################
+There was a syntax error in the html that is
+corrected now. -GCH
+#################################################*/
+
+#page {
 background-color: #403c3b;
   margin: 0 auto 0 auto;
   position: relative;
@@ -25,8 +30,15 @@ background-color: #403c3b;
 #6 And now my icon is gone! It works when I'm cxt
 to the Inet! - BC
 #################################################*/
+
+/*#################################################
+Try to avoid using absolute URLs. I changed them
+to relative pathways so they should work even
+offline -GCH
+#################################################*/
+
 h1 {
-	background-image: url(http://javascriptbook.com/code/c07/images/kinglogo.png);
+	background-image: url(../images/kinglogo.png);
 	background-repeat: no-repeat;
   background-position: center center;
   text-align: center;
@@ -44,6 +56,11 @@ Can you run through and see if there are any other
 images that also need your attention? - BC
 #################################################*/
 
+/*#################################################
+All pathways are checked and confirmed relative
+pathways now. They should all work online or 
+offline. -GCH
+#################################################*/
 
 h2 {
   color: #fff;
@@ -83,6 +100,11 @@ ul {
 	better - can you do it in js or jQuery? 
 - BC
 (done? now check on all my script, #9 is there)
+#################################################*/
+
+/*#################################################
+The changes to make all list items lowercase are
+done in js in the index.js -GCH
 #################################################*/
 
 li {
@@ -143,7 +165,7 @@ p {
 .complete {
   background-color: #999;
   color: #fff;
-  background-image: url("http://javascriptbook.com/code/c07/images/icon-trash.png");
+  background-image: url("../images/icon-trash.png");
   background-position: right, center;
   background-repeat: no-repeat;
   border-top: 1px solid #666;
@@ -156,7 +178,7 @@ p {
 }
 
 .favorite {
-  background-image: url("http://javascriptbook.com/code/c07/images/icon-heart.png");
+  background-image: url("../images/icon-heart.png");
   background-position: right, center;
   background-repeat: no-repeat;
 }
