@@ -13,11 +13,6 @@ that my page background color wasn't right.
 What up with this you think? BC
 #################################################*/
 
-/*#################################################
-There was a syntax error in the html that is
-corrected now. -GCH
-#################################################*/
-
 #page {
 background-color: #403c3b;
   margin: 0 auto 0 auto;
@@ -102,11 +97,6 @@ ul {
 (done? now check on all my script, #9 is there)
 #################################################*/
 
-/*#################################################
-The changes to make all list items lowercase are
-done in js in the index.js -GCH
-#################################################*/
-
 li {
   background-color: #ec8b68;
   color: #fff;
@@ -136,14 +126,23 @@ li.complete a {
 }
 
 p {
-  background-color: #fff;
+  background-color: 	#EEE8AA;
   color: #666;
   padding: 10px;
   display: inline-block;
   margin: 20px auto 20px auto;
-  width: 80%;
+  width: 90%;
   border-radius: 5px;
   text-align: center;
+}
+p a:link {
+  color: salmon;
+}
+p a:visited {
+  color: orangered;
+}
+p a:hover {
+  text-decoration: none;
 }
 
 .hot {
